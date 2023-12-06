@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679686632629",
+    "project_id": "cofight-app",
+    "storage_bucket": "cofight-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679686632629:android:a122f4b58e97f2f2493afc",
+        "android_client_info": {
+          "package_name": "com.example.cofight_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679686632629-oasd9uem688duc30np17ts806k8k2ufn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE-7yTQjN8K50vGJTAQ9_6C20WAzQaT4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679686632629-oasd9uem688duc30np17ts806k8k2ufn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

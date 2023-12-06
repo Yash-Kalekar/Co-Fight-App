@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Co-Fight App</string>
+    <style name="SplashScreenActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground"></item>
+    </style>
+</resources>
