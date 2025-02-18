@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:id="@+id/lla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/lli1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="35dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lla1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/rubik_bold"
+        android:justificationMode="inter_word"
+        android:text="As COVID-19 continues to spread, Covid tracker and Vaccination app help to contain the pandemic. The main objective of this application is to form it interactive and its ease to use where you'll be able to check what number people are affected and how many already died and recovered with the assistance of PieChart. It also contains a menu shows the symptoms of COVID-19 and prevention to stay people safe. App displays available vaccination centers and necessary information regarding center name, location, vaccine name, availability and type of vaccines and other related information. The app allows user to require self-assessment test and lets them know their risk level."
+        android:textSize="20dp" />
+
+</RelativeLayout>

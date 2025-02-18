@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/headerdesign"
+        />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/more"
+        android:layout_x="0dp"
+        android:layout_y="17dp"
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="162dp"
+        android:layout_y="10dp"
+        android:src="@drawable/cofight_logo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="0.5dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="20dp"
+        android:layout_y="170dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tracker"
+        android:background="@drawable/round_corner"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="215dp"
+        android:layout_y="170dp"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitCenter"
+        android:src="@drawable/self_assessment" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="20dp"
+        android:layout_y="380dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/prevention"
+        android:background="@drawable/round_corner"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="217dp"
+        android:layout_y="379dp"
+        android:background="@drawable/round_corner"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vaccination" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_x="20dp"
+        android:layout_y="320dp"
+        android:text="COVID TRACKER"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="212dp"
+        android:layout_y="321dp"
+        android:text="SELF-ASSESMENT"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="535dp"
+        android:gravity="center"
+        android:text="SYMPTOMS\nAND\nPREVENTION"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="216dp"
+        android:layout_y="533dp"
+        android:text="VACCINATION"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
